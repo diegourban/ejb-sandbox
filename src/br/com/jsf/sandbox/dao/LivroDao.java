@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.dao;
+package br.com.jsf.sandbox.dao;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
-import br.com.caelum.livraria.modelo.Livro;
+import br.com.jsf.sandbox.modelo.Livro;
 
 @Stateless
 public class LivroDao {

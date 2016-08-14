@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.modelo;
+package br.com.jsf.sandbox.modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

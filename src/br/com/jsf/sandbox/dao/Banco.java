@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.dao;
+package br.com.jsf.sandbox.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
 
-import br.com.caelum.livraria.modelo.Autor;
-import br.com.caelum.livraria.modelo.Livro;
-import br.com.caelum.livraria.modelo.Usuario;
+import br.com.jsf.sandbox.modelo.Autor;
+import br.com.jsf.sandbox.modelo.Livro;
+import br.com.jsf.sandbox.modelo.Usuario;
 
 @Singleton // garantindo que existe apenas uma instância
 @Startup // garente que já é inicializado com o servidor de aplicação

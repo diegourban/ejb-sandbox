@@ -1,10 +1,10 @@
-package br.com.caelum.livraria.dao;
+package br.com.jsf.sandbox.dao;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.caelum.livraria.modelo.Usuario;
+import br.com.jsf.sandbox.modelo.Usuario;
 
 @Stateless
 public class UsuarioDao {

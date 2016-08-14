@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.dao;
+package br.com.jsf.sandbox.dao;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.caelum.livraria.exception.LivrariaException;
-import br.com.caelum.livraria.interceptador.LogInterceptador;
-import br.com.caelum.livraria.modelo.Autor;
+import br.com.jsf.sandbox.exception.LivrariaException;
+import br.com.jsf.sandbox.interceptador.LogInterceptador;
+import br.com.jsf.sandbox.modelo.Autor;
 
 @Stateless
 // @TransactionManagement(TransactionManagementType.BEAN) // por padrão é

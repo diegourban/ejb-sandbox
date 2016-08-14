@@ -1,14 +1,14 @@
-package br.com.caelum.livraria.bean;
+package br.com.jsf.sandbox.bean;
 
 import java.util.List;
 
 import javax.enterprise.inject.Model;
 import javax.inject.Inject;
 
-import br.com.caelum.livraria.dao.AutorDao;
-import br.com.caelum.livraria.dao.LivroDao;
-import br.com.caelum.livraria.modelo.Autor;
-import br.com.caelum.livraria.modelo.Livro;
+import br.com.jsf.sandbox.dao.AutorDao;
+import br.com.jsf.sandbox.dao.LivroDao;
+import br.com.jsf.sandbox.modelo.Autor;
+import br.com.jsf.sandbox.modelo.Livro;
 
 @Model
 public class LivroBean {

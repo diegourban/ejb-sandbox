@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.agendador;
+package br.com.jsf.sandbox.agendador;
 
 import javax.ejb.Schedule;
 import javax.ejb.Singleton;

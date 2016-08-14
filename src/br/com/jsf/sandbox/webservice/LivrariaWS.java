@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.webservice;
+package br.com.jsf.sandbox.webservice;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-import br.com.caelum.livraria.dao.LivroDao;
-import br.com.caelum.livraria.modelo.Livro;
+import br.com.jsf.sandbox.dao.LivroDao;
+import br.com.jsf.sandbox.modelo.Livro;
 
 @Stateless
 @WebService

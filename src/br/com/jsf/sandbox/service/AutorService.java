@@ -1,12 +1,12 @@
-package br.com.caelum.livraria.service;
+package br.com.jsf.sandbox.service;
 
 import java.util.List;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import br.com.caelum.livraria.dao.AutorDao;
-import br.com.caelum.livraria.modelo.Autor;
+import br.com.jsf.sandbox.dao.AutorDao;
+import br.com.jsf.sandbox.modelo.Autor;
 
 @Stateless
 public class AutorService {

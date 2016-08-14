@@ -1,4 +1,4 @@
-package br.com.caelum.livraria.interceptador;
+package br.com.jsf.sandbox.interceptador;
 
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.InvocationContext;
