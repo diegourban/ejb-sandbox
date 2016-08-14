@@ -10,9 +10,9 @@
 		
 		<jta-data-source>java:/livrariaDS</jta-data-source>
 
-		<class>br.com.caelum.livraria.modelo.Autor</class>
-		<class>br.com.caelum.livraria.modelo.Livro</class>
-		<class>br.com.caelum.livraria.modelo.Usuario</class>
+		<class>br.com.ejb.sandbox.modelo.Autor</class>
+		<class>br.com.ejb.sandbox.modelo.Livro</class>
+		<class>br.com.ejb.sandbox.modelo.Usuario</class>
 
 		<properties>
 			<!-- Configuracoes especificas do Hibernate -->
