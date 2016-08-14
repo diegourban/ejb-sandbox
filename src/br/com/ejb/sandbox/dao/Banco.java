@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.dao;
+package br.com.ejb.sandbox.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
 
-import br.com.jsf.sandbox.modelo.Autor;
-import br.com.jsf.sandbox.modelo.Livro;
-import br.com.jsf.sandbox.modelo.Usuario;
+import br.com.ejb.sandbox.modelo.Autor;
+import br.com.ejb.sandbox.modelo.Livro;
+import br.com.ejb.sandbox.modelo.Usuario;
 
 @Singleton // garantindo que existe apenas uma instância
 @Startup // garente que já é inicializado com o servidor de aplicação

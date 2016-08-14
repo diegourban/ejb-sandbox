@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.dao;
+package br.com.ejb.sandbox.dao;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.jsf.sandbox.exception.LivrariaException;
-import br.com.jsf.sandbox.interceptador.LogInterceptador;
-import br.com.jsf.sandbox.modelo.Autor;
+import br.com.ejb.sandbox.exception.LivrariaException;
+import br.com.ejb.sandbox.interceptador.LogInterceptador;
+import br.com.ejb.sandbox.modelo.Autor;
 
 @Stateless
 // @TransactionManagement(TransactionManagementType.BEAN) // por padrão é

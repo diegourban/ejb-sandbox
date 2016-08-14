@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.agendador;
+package br.com.ejb.sandbox.agendador;
 
 import javax.ejb.Schedule;
 import javax.ejb.Singleton;

@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.modelo;
+package br.com.ejb.sandbox.modelo;
 
 import java.io.Serializable;
 

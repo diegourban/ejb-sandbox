@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.login;
+package br.com.ejb.sandbox.login;
 
 import javax.enterprise.context.RequestScoped;
 import javax.faces.application.FacesMessage;
@@ -6,9 +6,9 @@ import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import br.com.jsf.sandbox.bean.MenuBean;
-import br.com.jsf.sandbox.dao.UsuarioDao;
-import br.com.jsf.sandbox.modelo.Usuario;
+import br.com.ejb.sandbox.bean.MenuBean;
+import br.com.ejb.sandbox.dao.UsuarioDao;
+import br.com.ejb.sandbox.modelo.Usuario;
 
 @Named 
 @RequestScoped 

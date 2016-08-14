@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.interceptador;
+package br.com.ejb.sandbox.interceptador;
 
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.InvocationContext;

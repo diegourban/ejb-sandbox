@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.login;
+package br.com.ejb.sandbox.login;
 
 import javax.el.ELContext;
 import javax.el.ELResolver;

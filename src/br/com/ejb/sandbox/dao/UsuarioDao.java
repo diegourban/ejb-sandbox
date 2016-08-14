@@ -1,10 +1,10 @@
-package br.com.jsf.sandbox.dao;
+package br.com.ejb.sandbox.dao;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.com.jsf.sandbox.modelo.Usuario;
+import br.com.ejb.sandbox.modelo.Usuario;
 
 @Stateless
 public class UsuarioDao {

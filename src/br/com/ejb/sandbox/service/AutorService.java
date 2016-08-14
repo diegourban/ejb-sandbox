@@ -1,12 +1,12 @@
-package br.com.jsf.sandbox.service;
+package br.com.ejb.sandbox.service;
 
 import java.util.List;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import br.com.jsf.sandbox.dao.AutorDao;
-import br.com.jsf.sandbox.modelo.Autor;
+import br.com.ejb.sandbox.dao.AutorDao;
+import br.com.ejb.sandbox.modelo.Autor;
 
 @Stateless
 public class AutorService {

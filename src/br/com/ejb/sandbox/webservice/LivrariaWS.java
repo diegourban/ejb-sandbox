@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.webservice;
+package br.com.ejb.sandbox.webservice;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-import br.com.jsf.sandbox.dao.LivroDao;
-import br.com.jsf.sandbox.modelo.Livro;
+import br.com.ejb.sandbox.dao.LivroDao;
+import br.com.ejb.sandbox.modelo.Livro;
 
 @Stateless
 @WebService

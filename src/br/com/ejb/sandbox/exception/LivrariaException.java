@@ -1,4 +1,4 @@
-package br.com.jsf.sandbox.exception;
+package br.com.ejb.sandbox.exception;
 
 import javax.ejb.ApplicationException;
 

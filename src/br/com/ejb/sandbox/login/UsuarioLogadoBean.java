@@ -1,11 +1,11 @@
-package br.com.jsf.sandbox.login;
+package br.com.ejb.sandbox.login;
 
 import java.io.Serializable;
 
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
-import br.com.jsf.sandbox.modelo.Usuario;
+import br.com.ejb.sandbox.modelo.Usuario;
 
 @Named 
 @SessionScoped

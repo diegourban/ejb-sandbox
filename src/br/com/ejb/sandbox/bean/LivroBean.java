@@ -1,14 +1,14 @@
-package br.com.jsf.sandbox.bean;
+package br.com.ejb.sandbox.bean;
 
 import java.util.List;
 
 import javax.enterprise.inject.Model;
 import javax.inject.Inject;
 
-import br.com.jsf.sandbox.dao.AutorDao;
-import br.com.jsf.sandbox.dao.LivroDao;
-import br.com.jsf.sandbox.modelo.Autor;
-import br.com.jsf.sandbox.modelo.Livro;
+import br.com.ejb.sandbox.dao.AutorDao;
+import br.com.ejb.sandbox.dao.LivroDao;
+import br.com.ejb.sandbox.modelo.Autor;
+import br.com.ejb.sandbox.modelo.Livro;
 
 @Model
 public class LivroBean {
